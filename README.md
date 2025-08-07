@@ -24,6 +24,9 @@ Each subdirectory corresponds to a malware campaign or variant, named by date an
 - `2025-04-Crocodilus/`
 - `2025-06-Virtualization/`
 - `2025-07-Konfety/`
+- `2025-07-SarangTrap`
+- `2025-08-InfoStealers`
+- `2025-08-PlayPraetors`
 
 ### Example folder contents (`2024-07-OTP-Stealer/`):
 ```
