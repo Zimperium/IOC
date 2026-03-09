@@ -8,25 +8,7 @@ A public collection of **Indicators of Compromise (IOCs)** extracted from mobile
 
 Each subdirectory corresponds to a malware campaign or variant, named by date and threat identifier:
 
-- `2023-Banking-Heist/`
-- `2024-03-Copybara/`
-- `2024-07-OTP-Stealer/`
-- `2024-09-Gigabud/`
-- `2024-10-FakeCall/`
-- `2024-10-Necro.N/`
-- `2024-10-TrickMo/`
-- `2024-12-AppLite/`
-- `2025-01-DoNot/`
-- `2025-01-Fake-SBI-Rewards/`
-- `2025-01-PDF-Phishing/`
-- `2025-02-FatBoyPanel/`
-- `2025-04-BTMOB-RAT/`
-- `2025-04-Crocodilus/`
-- `2025-06-Virtualization/`
-- `2025-07-Konfety/`
-- `2025-07-SarangTrap`
-- `2025-08-InfoStealers`
-- `2025-08-PlayPraetors`
+- `YYYY-MM-<Campaign name>`
 
 ### Example folder contents (`2024-07-OTP-Stealer/`):
 ```
