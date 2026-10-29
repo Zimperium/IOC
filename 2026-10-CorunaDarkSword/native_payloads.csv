@@ -1,0 +1,45 @@
+sha256,name,type,size_bytes,role
+e04fcb2b674eac8cd6cc41e62da7af73c91f2334ca97668e1977f16a15846984,native_loader.dylib,Mach-O (ARM64),89327,Reference native bootstrap loader
+6d522977b4f5473050ae9f493cc34e837110fd5b06c236517c317d15623ba86c,bootstrap.dylib (zero-padded variant),Mach-O (ARM64),90112,Native bootstrap variant (matches July bootstrap with zero padding)
+c391bce7b09a0ea263e4b2c1d1bde0327c180723fa3299b006485429564c61ee,bootstrap.dylib (variant),Mach-O (ARM64),89328,"Native bootstrap variant (20 changed bytes vs reference, 1 trailing zero byte)"
+9d47c97290af30662dac154c27943fcaab252752bae8528d3a9e1e4d19d540e7,9d47c9...embedded-native.bin,Mach-O (ARM64),90112,"Patched native bootstrap associated with 17k7k.live (two instruction changes, custom intercept URL)"
+f24aebbe814a795282d9dc8f4c260959a63f5a32bec4f1e0515c8ddafa3b32e6,entry0_type0x08.dylib,Mach-O (ARM64),228928,"Native orchestration, process-memory read, and HTTP-client routines (type 0x08)"
+f0b8f735f20acb16e79cb3f55185f0dc8c1776caa38edefac7138505205deb51,entry1_type0x09.dylib,Mach-O (ARM64),333520,Kernel driver with memory read/write & AMFI manipulation (type 0x09; 1 of 12 builds)
+e7ba3ffa602fb1ea3299d2f15550c9b8c8bd1c33b400152d40c666776651c99f,entry_type0x0f.dylib,Mach-O (ARM64),191296,"System-service setup module (type 0x0f; checks keybagd, CloudKeychainProxy, GSSCred)"
+1bb2417efd531cb959375ae1d251225011951343526579ce29835d86749f9a88,entry4_type0x0a.dylib,Mach-O (ARM64),50344,Log wiper module (type 0x0a; deletes diagnostic logs and launchd.log)
+a303cf7881fce08738b73c9050aa52280b900a2d3c65ddeb12be96800bd487ce,cleanup_module_type0x0a,Mach-O (ARM64),50344,"Cleanup module, type 0x0a; export _startsc"
+58024c695345b7c9ca544c73fae3eb33e67d382ff8461b23c5aa838e8a4e88d1,config_descriptor_type0x07,Configuration descriptor,468,"Configuration descriptor, type 0x07, magic 0x12345678"
+6b5d557c96765ca7eb3e122a1c5d6604540810a6147b1f0eb60d561305652290,config_descriptor_type0x07,Configuration descriptor,468,"Configuration descriptor, type 0x07, magic 0x12345678"
+7af48fc5bac916bc6f656ea700fef482a8d6489d981809ff10c6e8a26edc617c,config_descriptor_type0x07,Configuration descriptor,468,"Configuration descriptor, type 0x07, magic 0x12345678"
+9bbbfbc7ee96c7dcdd4d0cfebd065e334dc9e139da74afac31cbded290786f3c,config_descriptor_type0x07,Configuration descriptor,468,"Configuration descriptor, type 0x07, magic 0x12345678"
+b1946f44f7cf32a807c6ebbf188dc4c6aed4573dadbc9e3503ffda71bdd0c307,config_descriptor_type0x07,Configuration descriptor,468,"Configuration descriptor, type 0x07, magic 0x12345678"
+99d082439036744261ecc1c3cbcb3b9b78d978212178058461380f53d5628414,encoded_native_bootstrap_stream,Encoded payload stream,29908,Encoded native-bootstrap stream from July native-bearing stage
+10c37b315a0e476e8f4a47352a7ab995cdce695c53f1586c1420301c4effdeb1,utility_module,Utility module,8309,Integer/pointer and byte-encoding utility module
+7dd85188323ea04d3141154c53fe280e2d3ee8d1e79f567fc8a7741684428ab8,js_payload_type0x0a,JavaScript payload,507450,JavaScript payload retained as a type-0x0a entry
+4ed7e9ca7fea812684e962643c68003006d6aaa5faaedba47926285d185fb76d,kernel_driver_type0x09,Mach-O (ARM64),284048,"Kernel/post-exploitation module, type 0x09; export _driver"
+68f1e9fdf85410f0ff6997c942b671a99d14013b886fcf0aae6d1e6354e89b93,kernel_driver_type0x09,Mach-O (ARM64),232256,"Kernel/post-exploitation module, type 0x09; export _driver"
+719f23fb61428a5dd2de69ef7b9b77e48a39d3aaa38d75e824057a99ee46436e,kernel_driver_type0x09,Mach-O (ARM64),248784,"Kernel/post-exploitation module, type 0x09; export _driver"
+72c8e998aa8b1ad77155d0f6706bd67931a7e2cc3ec9a32ba311adaf78cc7f28,kernel_driver_type0x09,Mach-O (ARM64),300912,"Kernel/post-exploitation module, type 0x09; export _driver"
+7fb33d73a0fd17abf1f0455ac4857efbd1fad7d1d9c4ff39652761622a68966b,kernel_driver_type0x09,Mach-O (ARM64),333504,"Kernel/post-exploitation module, type 0x09; export _driver"
+9877340c74c29a71b6d0afc176d8f29bc1bf4c952e4f4ff66b32185053362a83,kernel_driver_type0x09,Mach-O (ARM64),263536,"Kernel/post-exploitation module, type 0x09; export _driver"
+ae7cd71a90c65983a8297b73cb03e3a285d9d0d4791b9f2716a73669a056725e,kernel_driver_type0x09,Mach-O (ARM64),284048,"Kernel/post-exploitation module, type 0x09; export _driver"
+ba6990b9788c7988145d90c294d2fe6c9ab6e1be8176828b9e9ae3e7fe051e53,kernel_driver_type0x09,Mach-O (ARM64),249024,"Kernel/post-exploitation module, type 0x09; export _driver"
+ce39c7c08e07887c68021017de89a7e3c64016d1d186bc40320df526f5596d72,kernel_driver_type0x09,Mach-O (ARM64),300912,"Kernel/post-exploitation module, type 0x09; export _driver"
+d426ceae2e64b9779b7bad5c6ce1b4ed7fed73ed75aa66ea56bea6400fc924d2,kernel_driver_type0x09,Mach-O (ARM64),231264,"Kernel/post-exploitation module, type 0x09; export _driver"
+da8be4cc368364bb08d86c16d901b75c859b28281f61a2455c4db0da58dbe00c,kernel_driver_type0x09,Mach-O (ARM64),330304,"Kernel/post-exploitation module, type 0x09; export _driver"
+5d29446fff9aee5f8a5f268c87e495ee71cc1a233c64f5c241459ed2bb8eb09f,native_auxiliary_type0x08,Mach-O (ARM64),51768,"Native auxiliary module, type 0x08; export _start"
+d98607b1c9f9dab96d5f5b53b29881c08638e04acef9d82cf16ae1cbb19e2f5a,native_auxiliary_type0x08,Mach-O (ARM64),51760,"Native auxiliary module, type 0x08; export _start"
+0a8a6258a8558d838090323b2cb50ea3e26c8f9fac1d9f320859162b6fd5c404,native_loader_type0x0a,Mach-O (ARM64),68912,"Native loader module, type 0x0a; export _process"
+2d78a16dc1a41ec5c491140c389ef85e8d1c4b815a4b7cc523f2252a7c5eb309,native_module_type0x08,Mach-O (ARM64),88120,"Native module with JavaScriptCore/WebKit bridge references, type 0x08"
+a320c89d64b8b2f1856c048b58faab7a97aac4bdf54153460771722f6137203e,native_module_type0x08,Mach-O (ARM64),104528,"Native module with JavaScriptCore/WebKit bridge references, type 0x08"
+f1ffc9cbe17be543429b49e5204c513def59e1099dfde7202cc8849f1b3e7120,native_module_type0x08,Mach-O (ARM64),88112,"Native module with JavaScriptCore/WebKit bridge references, type 0x08"
+62ce610ecc9915e45f5032ac5b350f07eb58f2f16fddd95602e5aa732bc8ff27,native_orchestration_type0x08,Mach-O (ARM64),196864,"Native orchestration/HTTP-client module, type 0x08"
+ebcc76dcd5ef596e732321a8d16eb2dee525c5d9a68c700b7885648c13c65a57,native_bearing_final_stage_js,JavaScript stage,164440,Native-bearing final-stage JavaScript from July source set
+c46f10963abb667af65d53e9b1d867ae8f8e0243de5ca45dd5ead3931dd61056,descriptor_response_bytes,Opaque descriptor,1320,Opaque descriptor-response bytes recovered from retained descriptor wrapper
+bb512c21855f70bd230ca42966faa1d311a17ff1314a2a682810f8ee208795ff,raw_arm64_code_entry_type0x0a,ARM64 raw code,22660,"Raw ARM64 code entry, type 0x0a"
+373b242653d5224e16cad9909130d76e1805f6466c82a3130a376e95fd4521dd,raw_arm64_shellcode_type0x05,ARM64 shellcode,24844,"Raw ARM64 shellcode entry, type 0x05"
+1c690a980611a4fd8ab3681c871b9b131061511b0c1b9bc30189caa08fe1bced,f00dbeef_container,Container package,2192,Retained F00DBEEF container with one type-0x07 configuration descriptor
+561f8c272cd40bd4750894e8d2db825928b173bdb53cd828e5a4bf72f940f581,platform_version_offset_module,Utility module,12475,Runtime platform and version-offset module
+fc836902a4f5566c104f812ea5f98f91cd746a9ede8b498c000fc9131dbe9568,springboard_config_descriptor_type0x07,Configuration descriptor,49,"SpringBoard-target configuration descriptor, type 0x07, magic 0xDEADD00F"
+f3d958350be201eda4bd226537809668747709ee038263bede953e42bdde0800,standalone_arm64_loader_shellcode,ARM64 shellcode,31308,Standalone ARM64 loader shellcode from July native-bearing stage
+0bd09eb89e61df7d9fddff83e03b0ebc9f7bebefc23c784696856558f8e42037,system_service_setup_type0x0f,Mach-O (ARM64),192096,"System-service setup module family, type 0x0f; exports _end and _last"

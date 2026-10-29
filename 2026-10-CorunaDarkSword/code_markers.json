@@ -1,0 +1,335 @@
+{
+  "module_manager_runtime": {
+    "namespace": "globalThis.obChTK",
+    "fixed_loader_value": "cecd08aa6ff548c2",
+    "decoded_runtime_size_bytes": 29924,
+    "sha256": "bbe0aa67e3d9d968220cd57f8f0ad4e676a4e968031b8ad2697fac40b1a68008",
+    "decoding_patterns": [
+      "new Function(atob(...))()",
+      ".map(X=>String.fromCharCode(X^NN))"
+    ]
+  },
+  "internal_module_ids": [
+    {
+      "module_id": "57620206d62079baad0e57e6d9ec93120c0f5247",
+      "role": "Utility module: integer arithmetic, JavaScriptCore pointer handling, and WebAssembly encoding"
+    },
+    {
+      "module_id": "14669ca3b1519ba2a8f40be287f646d4d7593eb0",
+      "role": "iOS-version offsets used by exploit stages (entries for iOS 10.0-17.3 and PAC signing context 0x24AD)"
+    },
+    {
+      "module_id": "7d8f5bae97f37aa318bccd652bf0c1dc38fd8396",
+      "role": "Stage 1 module reference in saved loader"
+    }
+  ],
+  "campaign_labels": [
+    {
+      "pattern": "1DECX7UIQIB{03,95,0Z,2U,WS}",
+      "description": "Lure page campaign-label namespace"
+    },
+    {
+      "value": "k7Xp3Rm9Qz",
+      "description": "Campaign label on 66wc.eu.cc"
+    },
+    {
+      "value": "AG72TB24F9VX",
+      "description": "Campaign label shared across loader cluster"
+    },
+    {
+      "value": "1DECX7UIQIB3B",
+      "description": "Configured channelCode for nhju8wtvu3.pifilubihu.shop and pifilubihu.shop"
+    },
+    {
+      "value": "2RzVlzrCXi",
+      "description": "Configured channelCode for buddyflow.shop and pureaffection.shop"
+    },
+    {
+      "value": "3BQGaekSV4",
+      "description": "Configured channelCode for friendora.shop"
+    },
+    {
+      "value": "KEfkj8UIZV",
+      "description": "Configured channelCode for p1.silkbloom.win"
+    },
+    {
+      "value": "LSm2zqGS2b",
+      "description": "Configured channelCode for p1.amberpetal.win"
+    },
+    {
+      "value": "OgTeulUKWm",
+      "description": "Configured channelCode for sweettwosome.shop"
+    },
+    {
+      "value": "c0930e189f6d4eea8b5ba2de54ba885e",
+      "description": "Configured channelCode for yinyu.myloves.online"
+    },
+    {
+      "value": "jkyVgoj4JW",
+      "description": "Configured channelCode for datepulse.shop"
+    },
+    {
+      "value": "r9IIbNqxEX",
+      "description": "Configured channelCode for amorfinder.shop"
+    },
+    {
+      "value": "xv0hTkD7Ep",
+      "description": "Configured channelCode for melatibiru.win"
+    },
+    {
+      "value": "CHMK6IG08F42496C22",
+      "description": "Decoded marker in visitor-report loader source"
+    },
+    {
+      "value": "channel_code=74ed4fd6b130444995d3016881c77759",
+      "description": "Channel code in iOS 18 delivered modules and command-server requests"
+    }
+  ],
+  "loader_scripts": [
+    {
+      "filename": "49554fde7424c31c.js",
+      "description": "Recurring loader filename used by ax.xoovo.top and www2.disp.cc"
+    },
+    {
+      "filename": "34ef644ff217a50beadde64dc8e23a7d.js",
+      "description": "Loader filename used by xxtg1, ngmeetme and 3x3br"
+    }
+  ],
+  "telemetry_beacon_format": {
+    "method": "POST",
+    "path": "/api/ip-sync/sync",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "json_schema": {
+      "channelCode": "string (campaign label)",
+      "ip": "string (visitor public IP)",
+      "deviceVersion": "string (parsed OS version)",
+      "domain": "string (origin/referrer domain)"
+    },
+    "beacon_cadence_seconds": 10
+  },
+  "correlation_analytics_ids": [
+    {
+      "platform": "Umami",
+      "key": "237dcc45-de06-4169-bf7b-2ba8e1ce8b17",
+      "context": "Associated with ax.xoovo.top"
+    },
+    {
+      "platform": "PostHog",
+      "key": "phc_uyFVja4pwadJV5NkysULQMhQyFUGGPNCLrWWPKfXtyFB",
+      "context": "Associated with 66wc.eu.cc"
+    },
+    {
+      "platform": "PostHog",
+      "key": "phc_uFUUzp3n6zZok9Tg3M3JEjkDynGfkUiSttHcriPC6LSQ",
+      "context": "Associated with xxtg1 and other lure pages"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "D91SJSBC77U4M7JJ4QNG",
+      "context": "Lure-page markup"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DAPBSRJC77UFPT800030",
+      "context": "Requests from yinyu.myloves.online"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DAVMERRC77U3L5980BF0",
+      "context": "Requests from p1.amberpetal.win"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DAVMG7BC77UAAGDAPCCO",
+      "context": "Requests from melatibiru.win"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DAVNI13C77U27N8GVNOO",
+      "context": "Requests from p1.silkbloom.win"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DB16VPRC77UEAUE9ONRO",
+      "context": "Requests from pureaffection.shop"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DB19BHRC77UA626EEBQG",
+      "context": "Requests from datepulse.shop"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DB1NMDJC77U534NEDQR0",
+      "context": "Requests from sweettwosome.shop"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DB2E5DJC77U9003F8JOG",
+      "context": "Requests from friendora.shop"
+    },
+    {
+      "platform": "TikTok Pixel",
+      "key": "DB3L6VJC77U1IVFTP4H0",
+      "context": "Requests from buddyflow.shop"
+    }
+  ],
+  "runtime_variants": [
+    {
+      "variant": "Reference decoded runtime",
+      "sha256": "bbe0aa67e3d9d968220cd57f8f0ad4e676a4e968031b8ad2697fac40b1a68008",
+      "size_bytes": 29924,
+      "description": "Standard decoded runtime shared across multiple loader configurations"
+    },
+    {
+      "variant": "jiaoyou.eu.cc variant",
+      "sha256": "689e3f793e4e1720bc86d5522b5ce1f645c6bc05d8b674e0e5963dfec3de4f8a",
+      "size_bytes": 30121,
+      "description": "Modified Coruna runtime with remapped module filenames (self._CAMO_M, self._CAMO_HTML_PEEL)"
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "35e967f94d9e11d00f37720a2ba572b1c6814b8225759c4534a1df838356b62c",
+      "size_bytes": 29770
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "474308b168ee87fc17db5a9e91bb60f87fcda3f8691fc8f00d4ca8c8a3e489e0",
+      "size_bytes": 29933
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "663b0b8d22f60889a825e17ec2d716f5ad1a785a1d1336b57010f6c990d2ede8",
+      "size_bytes": 29959
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "6dc8b2ce471a2aa362e0bda90766b71b6569055aaab925e5e1877e68c4503ee8",
+      "size_bytes": 29935
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "8cbb520218451472b155cab532c3b26f1d31858a40ef31037bcbfbdb4166e826",
+      "size_bytes": 29984
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "8f94f6c835c3389fd6307a2e45d11ff4c7f7c600a0aeb0a5f50a106b40c1267b",
+      "size_bytes": 29964
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "a2535655b93b67bc8b9b603c0ce1205b5daf7b91b793266ba85f1f2be25aa0ce",
+      "size_bytes": 29974
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "caa79fc4c7a53eb52968890768e1f2c2e6676ad4435e6fa85367d69fb582c8bf",
+      "size_bytes": 29988
+    },
+    {
+      "variant": "Decoded runtime",
+      "sha256": "d9ebd13c645963082c31ec1c61eeecb945e9e164a6a6f1f12b78cea2aadd3a6d",
+      "size_bytes": 29835
+    }
+  ],
+  "ios18_chain_scripts_and_modules": [
+    {
+      "name": "rce_loader.js",
+      "sha256": "89305749b543e182bfab7d82692335ce60090093cd62ac415c64eb12cad38fd8",
+      "role": "Loader and version-selection code"
+    },
+    {
+      "name": "rce_worker_18.4.js",
+      "sha256": "fd1a03b230d575fe884c0dedfc6c4dd8f9986cb46efc839516006301ad922094",
+      "role": "Worker fetched in advance by loader"
+    },
+    {
+      "name": "rce_worker_18.6.js",
+      "sha256": "57b9af166254cb14d54b34c8dd54b0495fc50a8c6b47d604a0730013e16c169b",
+      "role": "Worker corroborated on iOS 18.6.2"
+    },
+    {
+      "name": "rce_worker_18.7.js",
+      "sha256": "b77f7c00e41f8d234706abac35cc45218c6978778d7b7a83ed38195b4c187af1",
+      "role": "Worker fetched in advance by loader"
+    },
+    {
+      "name": "rce_module.js",
+      "sha256": "0496695e96b5f5d51c22573eebdfe89958f516828839a8b0b92359759d4c9fde",
+      "role": "Module helper retained alongside versioned workers"
+    },
+    {
+      "name": "rce_module_18.6.js",
+      "sha256": "37efaa4237a28a4be411d40de80b2935be5b8c4e6731ee1f858c609142a87445",
+      "role": "Helper stub (85 B)"
+    },
+    {
+      "name": "rce_module_18.7.js",
+      "sha256": "9e1f17786807560ff467367bd8f9cb0766351c80e2b40af6edfb888132285ef7",
+      "role": "Helper stub (222 B)"
+    },
+    {
+      "name": "sbx0_main_18.4.js",
+      "sha256": "a1b3b9418b738d06cf7d8971a775b3309d7441cc45b0735166933589d31b5275",
+      "role": "Retained sandbox-stage script"
+    },
+    {
+      "name": "sbx1_main.js",
+      "sha256": "f79dea38b9e5a2d411e0def5f275d6e312dc89b1b72206b64a8c3857a9b9cf01",
+      "role": "Retained sbx1 script with embedded JS bootstrap and native-function helpers"
+    },
+    {
+      "name": "pe_worker.js",
+      "sha256": "647ed1818d02c2bf10229171c30fa6630d57d3796fdec2ef174838d16c368bf8",
+      "role": "Code containing later-stage endpoint and IPC-path references"
+    },
+    {
+      "name": "qqtime.html (variant 1)",
+      "sha256": "191ddbb79d7117a9fffea69f9942e9cdb6309b5751e4bbef2d3c3e84329d35b6",
+      "role": "Browser-side selector from ssc.vever3eds.com/aqj2IcG/"
+    },
+    {
+      "name": "qqtime.html (variant 2)",
+      "sha256": "4d1119004cf32ef487e7aa518e2bc0e91202d300ce7efc9dcfbe5687bd51c54e",
+      "role": "Browser-side selector from ssc.vever3eds.com/aqj2IcG/"
+    },
+    {
+      "name": "MigFilterBypassThread.js",
+      "sha256": "48aacf46ad8b7f619d7f4346c330abfbda14a34ed3eb98c215a5ef5fb36e2171",
+      "role": "Thread helper containing MIG_FILTER_BYPASS marker"
+    },
+    {
+      "name": "c2_agent.js",
+      "sha256": "ddbdbdefa6390d302353fa0bef598e167c9b6a0cf1a5a2533f695f1c196ae963",
+      "role": "Command agent with beacon, task, result, Notes and app upload paths"
+    },
+    {
+      "name": "channel_crypto_min.js",
+      "sha256": "b081b518c5e2b3fd0de23593dccb93e5451b515e592987f53eb733642a91b13a",
+      "role": "Channel message encoding/decoding helpers"
+    },
+    {
+      "name": "pe_session_eval.js",
+      "sha256": "086f2f5ad77fa3225dbcb4637dbb3f731abb5874395cedd0d91fadf934435e9b",
+      "role": "Session evaluation and retry helper"
+    },
+    {
+      "name": "pe_vm.js",
+      "sha256": "0cca2f471b75a30c87edd71aef05de5aae0ba3d915d143683e9d701e99e48795",
+      "role": "Post-exploitation loader requesting pe_worker / pe_worker_body.js"
+    },
+    {
+      "name": "pe_worker_body.js",
+      "sha256": "87b71e94cc5ff5e36782fc38bfe311a47e5ab54e81303d4a00dfd71ad7bf9f56",
+      "role": "Main post-exploitation worker body"
+    },
+    {
+      "name": "telegram_v1.js",
+      "sha256": "231404fea2ade57feab03b6e23d172626ddc1882635ad0bb4fb930a1752ef004",
+      "role": "Telegram collection module (/tmp/tg_auth, /tmp/c2_ipc/tg_v1.done)"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+indicator,type,role
+ipsadminuser.shop,domain,"Configured tracking collector (ngmeetme, www2.disp.cc)"
+ips.ipnewadminshop.shop,domain,Configured tracking collector (xxtg1)
+ip.zsqtxu.cn,domain,Configured tracking collector (ax.xoovo.top)
+gk2j9o117xfmclf.icu,domain,Configured tracking collector (66wc.eu.cc)
+ip.57x4l709amkhwbq.icu,domain,Configured tracking collector (echomint.buzz)
+dafuweng1888888.icu,domain,Configured tracking collector (3x3br.eu.cc)
+ubigdan69741536.icu,domain,Configured tracking collector (5 websites)
+amrcoolboy33333.icu,domain,Configured tracking collector (3 fronts)
+go32ip.74rcu0ntwgvtpzn.icu,domain,Configured tracking collector (2 fronts)
+4wbzloj8bai3qw4.icu,domain,Configured tracking collector (chainscope.site)
+gkxtguomb5mrs16.xyz,domain,Configured tracking collector (pocketbtc.icu)
+n65ca1ea16e1log.icu,domain,Configured tracking collector (l77v.online)
+a.uukkll.xyz,domain,Configured tracking collector (bitmy.icu)
+mza165114bm9w6a.icu,domain,Configured tracking collector (cz.67855.shop)
+ipv17.icu,domain,Configured tracking collector (9 websites)
+vrgrt4t33.com,domain,Configured tracking collector (12 websites)
+ipsadminfastcloud.homes,domain,Configured tracking collector (toongod.us)
+echomint.buzz,domain,AI-companion lure page
+3x3br.eu.cc,domain,Dating lure page (pt-BR)
+1x8gmjbdq3tepgr.icu,domain,Self-hosted qqtime loader and tracking host
+hdmg57.cc,domain,Hidden-frame loader host used by www2.disp.cc
+ifram.xoovo.top,domain,Lure host and self-hosted Umami analytics
+xoovo.top,domain,Lure domain and self-hosted Umami analytics
+se.stripchati.xyz,domain,Lure hostname referenced in toolkit code
+ssc.vever3eds.com,domain,Shared hidden-frame and Coruna module host used by 13 websites
+ajax.googleapls.com,domain,Serves jquery.min.js injection script that creates a hidden frame on toongod.us
+a111.life,domain,Hidden-frame entry at /guard.html and Coruna module host
+*.ipnewadminshop.shop,cert_subject,Wildcard-certificate pivot; assess sibling hostnames separately
+/api/ip-sync/sync,uri_path,Visitor-report endpoint
+ip.126tr8gfyiutgfwqo80y.xyz,domain,Configured tracking collector (kjkp.com.cn and qcsh.com.cn)
+commoditytrendpilot.site,domain,Adult-content front loading Coruna through gewc61.cc
+gewc61.cc,domain,Hidden-frame and Coruna loader host used by commoditytrendpilot.site
+dmrwq.cn,domain,USDT wallet-lookup page loading Coruna through www.jx9adrpc5z8094di7.net
+www.jx9adrpc5z8094di7.net,domain,Frame and Coruna module host (/channel/L.L.S2/weifile/) used by dmrwq.cn
+ushdwks.xyz,domain,Adult-streaming age verification page loading Coruna through whcltjkyl.com
+whcltjkyl.com,domain,Frame and Coruna module host (/channel/4.0.WI/weifile/) used by ushdwks.xyz
+5.255.61.234,ip,Shared hosting observed for four dating fronts; investigation pivot
+stocktrendpilot.net,cert_subject,TLS certificate pivot from commoditytrendpilot.site
+m.bunecemopu.pro,domain,Configured visitor-report collector for pifilubihu.shop and nhju8wtvu3.pifilubihu.shop
+p.bunecemopu.pro,domain,Lure-side /hx beacon observed from pifilubihu.shop and nhju8wtvu3.pifilubihu.shop; contextual lead
+g1ha.lol,domain,Self-hosted Coruna loader host (/coruna/assets/js/group.html and /coruna/assets/js/49554fde7424c31c.js)
+jiaoyou.eu.cc,domain,"Crypto-market page carrying modified Coruna runtime (/d/file/p/n1847.html, sdk.js, app.js)"
+lomnhds.app,domain,Lure-side /333b44 beacon observed on jiaoyou.eu.cc; contextual network lead
+prod79y5hyigrqj.icu,domain,Dating lure with /qqtime/qqtime.html and /ios18/expires.html; POST to /api/ip-sync/sync observed
+ccsigen321qc.com,domain,"Observed command-and-control (C2), module-delivery and data-upload server for iOS 18 chain"
+test.ipsadminfastcloud.homes,domain,Historical /ds/ script reference in configuration for iOS 18 chain
+dxhe16kfu01eco5.lat,domain,Historical /ds/ iframe reference in configuration for iOS 18 chain
+u5d6a5j9mhx646g.icu,domain,Configured visitor/device reporting collector (Table 2)
+ak.wyincc.com,domain,Exploit and payload host associated with Coruna chain
+trxusdt.vip,domain,Lure page associated with ak.wyincc.com chain
+melatibiru.win,domain,Dating/live-stream lure delivering iOS 18 chain
+pifilubihu.shop,domain,Loader entry page
+nhju8wtvu3.pifilubihu.shop,domain,Loader entry page
+pureaffection.shop,domain,Nearby dating lure page
+sweettwosome.shop,domain,Nearby dating lure page
+friendora.shop,domain,Nearby dating lure page
+buddyflow.shop,domain,Nearby dating lure page
+p1.amberpetal.win,domain,Dating/live-stream preview lure
+p1.silkbloom.win,domain,Dating/live-stream preview lure
+amorfinder.shop,domain,Dating-partner chat lure
+datepulse.shop,domain,Nearby dating lure
+yinyu.myloves.online,domain,Nearby dating lure
+chengshizhichuangart.cn,domain,Lure site pointing to u5d6a5j9mhx646g.icu
+gehuo.cn,domain,Lure site pointing to u5d6a5j9mhx646g.icu
+post.gehuo.cn,domain,Lure site pointing to u5d6a5j9mhx646g.icu
+wh315.org.cn,domain,Lure site pointing to u5d6a5j9mhx646g.icu
+xby.yinuo79.online,domain,Nearby dating lure
+pc2.live,domain,Live-stream lure
+quietbloom.win,domain,Nearby dating lure
+serenecove.win,domain,Nearby dating lure
+walink.win,domain,Lure site pointing to vrgrt4t33.com
+tk.89gh.shop,domain,Nearby dating lure
+tk.968227.shop,domain,Lure site pointing to ipv17.icu
+sdk.ftht8s6llvse581.cfd,domain,Selector entry and active OS selector host
+www.9stgbzb2zug2uoa3.com:20110,host_port,Active OS selector host
+www.c4jsrnirobpg.vip:20110,host_port,Active OS selector and iframe delivery host
+www.edgecdnstatic.com,domain,"Embedded Coruna loader, hidden-frame injector, and OS selector host"
+www.k1x513ppsb71yqvi8c9e8mj.info,domain,Landing page with hidden delivery iframe and active OS selector
+www.qiiekxwcuovn.cc:20110,host_port,Active OS selector host
+99dgg3skmm.fbflow.cloud,domain,Coruna loader delivery host
+anzf27.cc,domain,Coruna loader delivery host
+apexforge.best,domain,Coruna loader delivery host
+cc3.uukkll.xyz,domain,Coruna loader delivery host
+chan.wakwak.icu,domain,Coruna loader delivery host
+dasferws.site,domain,Coruna loader delivery host
+hiun78.cc,domain,Coruna loader delivery host
+kkk.wyincc.com,domain,Coruna loader delivery host
+mzpo30.cam,domain,Coruna loader delivery host
+nmg067.cc,domain,Coruna loader delivery host
+osid66.cc,domain,Coruna loader delivery host
+railway.cam,domain,Coruna loader delivery host
+rk.ehdkn68fqmd64jh.icu,domain,Coruna loader delivery host
+sese.aadd6688.sbs,domain,Coruna loader delivery host
+sweepstakes.cocoex.info,domain,Coruna loader delivery host
+www.amazonawsapirds.com,domain,Coruna loader delivery host
+www.cloudfareintcdn.com,domain,Coruna loader delivery host
+ccsigen321qc.com/api/payload/get,url,iOS 18 chain module delivery endpoint
+ccsigen321qc.com/pelog,url,iOS 18 post-exploitation logging endpoint
+ccsigen321qc.com/beacon,url,iOS 18 check-in beacon endpoint
+ccsigen321qc.com/api/task/pull,url,iOS 18 task pull endpoint
+ccsigen321qc.com/api/task/status,url,iOS 18 task status endpoint
+ccsigen321qc.com/api/pe/report,url,iOS 18 process report endpoint
+ccsigen321qc.com/event,url,iOS 18 status events endpoint
+ccsigen321qc.com/result,url,iOS 18 command results and app-list upload endpoint
+ccsigen321qc.com/nb,url,iOS 18 Apple Notes database upload endpoint
+ccsigen321qc.com/api/device/apps,url,iOS 18 installed-app inventory upload endpoint
+ssc.vever3eds.com/log.html,url,iOS 18 stage telemetry endpoint
+vrgrt4t33.com/log.html,url,iOS 18 stage telemetry endpoint
+vrgrt4t33.com/api/health,url,iOS 18 health check endpoint

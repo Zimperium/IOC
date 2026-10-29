@@ -1,0 +1,7 @@
+type_hex,capability,files_analysed,description
+0x09,Kernel memory access and AMFI-state changes,16,Kernel driver builds compiled per iOS version
+0x0f,System-service setup,14,"Checks execution context in keybagd, CloudKeychainProxy, GSSCred"
+0x08,Orchestration and communication,19,"Native orchestrator, task port memory reader, and HTTP client"
+0x0a,Cleanup and log wiper,11,"Deletes WebContent crash logs, launchd logs, and Safari records"
+0x05,Shellcode stub,2,Position-independent execution stubs
+0x07,Configuration blob,28,Encrypted/encoded operational parameters

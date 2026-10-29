@@ -1,0 +1,140 @@
+{
+  "user_agent": "MobileStore/1.0",
+  "tls_configuration": {
+    "certificate_validation": "disabled (kCFStreamSSLValidatesCertificateChain: false)",
+    "timeout_seconds": 240,
+    "max_retries": 7,
+    "encryption": "ChaCha20 (constant 'expand 32-byte k' at offset 0xbb80)"
+  },
+  "c2_endpoints": [
+    "https://ubigdan69741536.icu/api/qqtime-native-intercept",
+    "https://ccsigen321qc.com/api/payload/get",
+    "https://ccsigen321qc.com/pelog",
+    "https://ccsigen321qc.com/beacon",
+    "https://ccsigen321qc.com/api/task/pull",
+    "https://ccsigen321qc.com/api/task/status",
+    "https://ccsigen321qc.com/api/pe/report",
+    "https://ccsigen321qc.com/event",
+    "https://ccsigen321qc.com/result",
+    "https://ccsigen321qc.com/nb",
+    "https://ccsigen321qc.com/api/device/apps",
+    "https://vrgrt4t33.com/api/health",
+    "https://ssc.vever3eds.com/log.html",
+    "https://vrgrt4t33.com/log.html"
+  ],
+  "secondary_delivery_infrastructure": {
+    "exploit_host": "ak.wyincc.com",
+    "associated_lure": "trxusdt.vip"
+  },
+  "binary_patch_offsets": {
+    "description": "Instruction and string diffs between reference native_loader.dylib (SHA-256 e04fcb...) and patched bootstrap associated with 17k7k.live (SHA-256 9d47c9...)",
+    "diffs": [
+      {
+        "offset": "0x84ec",
+        "original_bytes": "01 04 00 54",
+        "patched_bytes": "1f 20 03 d5",
+        "disassembly_note": "Replaced conditional branch with NOP (d503201f)"
+      },
+      {
+        "offset": "0x8bb0",
+        "original_bytes": "e1 03 00 aa",
+        "patched_bytes": "41 81 01 70",
+        "disassembly_note": "Register move modified"
+      },
+      {
+        "offset": "0xbbdb",
+        "original_string": "Reference C2 URL endpoint",
+        "patched_string": "https://ubigdan69741536.icu/api/qqtime-native-intercept"
+      }
+    ],
+    "bootstrap_variant_c391bc": {
+      "sha256": "c391bce7b09a0ea263e4b2c1d1bde0327c180723fa3299b006485429564c61ee",
+      "size_bytes": 89328,
+      "variance": "20 changed bytes and one trailing zero byte relative to reference loader"
+    }
+  },
+  "container_and_pack_magics": [
+    {
+      "name": "container_magic",
+      "magic_hex": "0xF00DBEEF"
+    },
+    {
+      "name": "lzma_frame_magic",
+      "magic_hex": "0x0BEDF00D"
+    },
+    {
+      "name": "descriptor_magic_1",
+      "magic_hex": "0xDEADD00F"
+    },
+    {
+      "name": "descriptor_magic_2",
+      "magic_hex": "0x12345678"
+    }
+  ],
+  "native_exports_and_install_names": [
+    "_process",
+    "_driver",
+    "_end",
+    "_last",
+    "_start",
+    "x00",
+    "x01",
+    "x03",
+    "x05",
+    "x0b"
+  ],
+  "loader_environment_constants": [
+    "0x92fb37c8",
+    "0x37a09642",
+    "0x2c91a47e"
+  ],
+  "environment_check_paths_and_strings": [
+    "/usr/libexec/corelliumd",
+    "CORELLIUM",
+    "/private/var/factory_mount",
+    "/private/var/MobileSoftwareUpdate/mnt1"
+  ],
+  "cleanup_targeted_artifacts": [
+    "ExcUserFault_com.apple.WebKit.WebContent*",
+    "JetsamEvent*",
+    "/private/var/log/com.apple.xpc.launchd/launchd.log",
+    "Safari Website Data Records via deleteSafariWebsiteDataRecord:completionHandler:"
+  ],
+  "amfi_kernel_patch_targets": [
+    "developer_mode_status",
+    "allows_security_research"
+  ],
+  "targeted_system_processes": [
+    "keybagd",
+    "CloudKeychainProxy",
+    "GSSCred"
+  ],
+  "developer_artifacts_in_lure": [
+    "cdn.jsdelivr.net/npm/eruda"
+  ],
+  "ios18_ipc_and_artifact_paths": [
+    "/private/var/tmp/c2_ipc",
+    "/tmp/c2_ipc",
+    "/tmp/c2_ipc/agent_flags.json",
+    "/tmp/c2_ipc/cache",
+    "/tmp/c2_ipc/device.json",
+    "/tmp/c2_ipc/p7.cache.json",
+    "/tmp/c2_ipc/pe.fcall_expect",
+    "/tmp/c2_ipc/pe.fcall_ready",
+    "/tmp/c2_ipc/pe.heartbeat",
+    "/tmp/c2_ipc/pe.lock",
+    "/tmp/c2_ipc/pe_pelog.json",
+    "/tmp/c2_ipc/channel.json",
+    "/tmp/c2_ipc/c2_endpoints.json",
+    "/tmp/tg_auth",
+    "/tmp/c2_ipc/tg_v1.done"
+  ],
+  "ios18_source_markers": [
+    "MIG_FILTER_BYPASS",
+    "channel_code=74ed4fd6b130444995d3016881c77759",
+    "c2_bootstrap.js",
+    "session_telegram.js",
+    "session_whatsapp.js",
+    "keychain_copier.js"
+  ]
+}
